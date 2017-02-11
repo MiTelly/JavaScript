@@ -1,0 +1,104 @@
+body {
+	background-color:#00CC99;
+}
+#leftButtons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+#diceButton {
+	outline: none;
+	width:400px;
+	height:130px;
+	font-size:45px;
+	background-color:#339933;
+	border-radius: 20px;
+}
+#numRolls {
+  outline: none;
+	font-size:45px;
+	width: 400px;
+  height:130px;
+	text-align: center;
+	background:#CC0000;
+	border-radius: 20px;
+}
+#rollingDice{
+  display: flex;
+}
+.dice {
+	width:130px;
+	height:130px;
+	background:#E6E6E6;
+	font-size:115px;
+	text-align:center;
+	border-radius: 20px;
+  margin-left: 6px;
+}
+
+#totguesses {
+	width:130px;
+	height:130px;
+	background: blue;
+	font-size:115px;
+	text-align:center;
+	border-radius: 20px;
+  margin-left: 6px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+h1 {
+  text-decoration: underline;
+  font-size: 60px;
+}
+#playAgain {
+	text-align:center;
+  margin-bottom: 30px;
+}
+
+#rightDice {
+}
+
+.centerMe {
+	text-align: center;
+}
+#win {
+  font-weight: bold;
+	display: none;
+	color: green;
+	opacity: 1.0;
+	font-style: bold;
+	font-size: 80px;
+  background-color: lightgreen;
+  padding: 0 100px;
+}
+#lose {
+  font-weight: bold;
+	display: none;
+	color: red;
+	opacity: 1.0;
+	font-style: bold;
+	font-size: 80px;
+  background-color: purple;
+  padding: 0 100px;
+
+}
+#button1 {
+	display: none;
+	width: 415px;
+	height: 130px;
+	font-size: 60px;
+	background-color: #E6E6E6;
+	margin: auto;
+	border-radius: 15px;
+	border: 2px solid black;
+	color: black;
+}
+p {
+	font-size:75px;
+}

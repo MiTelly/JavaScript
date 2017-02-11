@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boxcars or 35...</title>
+	<script type="text/javascript" src="dice.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1>Boxcars or 35 rolls?</h1>
+
+	<div class="container">
+		<div id="leftButtons">
+			<button id="diceButton" type="button" onclick="diceRoll()">Roll the dice...</button>
+			<button id="numRolls">Number of rolls</button>
+		</div>
+
+		<div id="rightDice">
+			<div id="rollingDice">
+				<div id="demo1" class="dice">0</div>
+				<div id="demo2" class="dice">0</div>
+			</div>
+			<div id="totguesses">0</div>
+		</div>
+	</div>
+
+	<div id="playAgain" >
+			<button id="button1" onclick="playAgain()">PLAY AGAIN</button>
+	</div>
+
+	<div class="centerMe">
+		<p id="win">YOU WIN!!!</p>
+	</div>
+
+	<div class="centerMe">
+		<p id="lose">YOU LOSE!!!</p>
+	</div>
+
+</body>
+
+</html>
