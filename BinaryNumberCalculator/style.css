@@ -1,0 +1,26 @@
+h1 {
+  text-decoration: underline;
+}
+
+input {
+  width: 450px;
+  height: 35px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+button {
+  height: 35px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#binary {
+  width: 450px;
+  height: 35px;
+  font-size: 25px;
+  border: 1px solid black;
+  font-style: 11px system-ui;
+  padding-top: 3px;
+}
